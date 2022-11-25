@@ -1,0 +1,10 @@
+server:
+  port: 8084
+food:
+  food-name: Pizza
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
